@@ -1,0 +1,14 @@
+bf
+dad
+gf
+bf-car
+gf-car
+bf-christmas
+gf-christmas
+bf-pixel
+gf-pixel
+bf-pixel-opponent
+bf-holding-gf
+144
+poldo-bf
+poldobf-chitarra
