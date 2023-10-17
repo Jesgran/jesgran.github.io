@@ -1,0 +1,50 @@
+/* Sfondo del corpo */
+body {
+    text-align: center;
+    background-color: #010E1B;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Utilizzo il font Arial come esempio */
+  }
+  
+  /* Rimuovi il testo predefinito dei link */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Stilizza i pulsanti */
+  .button {
+    display: inline-block;
+    padding: 10px 40px; /* Allarga i pulsanti solo in lunghezza */
+    background-color: #1B2732;
+    color: #11C63D;
+    border: none;
+    border-radius: 10px; /* Angoli arrotondati */
+    margin: 10px;
+    transition: background-color 0.3s; /* Transizione del colore al passaggio del mouse */
+  }
+  
+  .button:hover {
+    background-color: #193b51; /* Cambia colore al passaggio del mouse */
+  }
+  
+  /* Stilizza il testo principale nel pulsante */
+  .main-text {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px; /* Aggiungi spazio tra il testo principale e quello aggiuntivo */
+  }
+  
+  /* Stilizza il testo aggiuntivo nel pulsante */
+  .additional-text {
+    font-size: 14px;
+  }
+  
+  /* Posiziona il contenuto al centro della pagina */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  

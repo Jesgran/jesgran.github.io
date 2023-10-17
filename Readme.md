@@ -21,15 +21,6 @@ SI, Questo sito e apposta open source per lasciare anche a voi la possibilita di
 Beh, vi ho gia lasciato la possibilita di usarlo dovrete scoprire da soli come personalizzarlo ;)
 ```
 
-## Autore
-
-👤 **Daniel Calzuolo**
-
-* Github: [@Jesgran](https://github.com/Jesgran)
-* YouTube: [Jesgran](https://www.youtube.com/channel/UC3EKMFcv4QF3Tz8WM78BTAg)
-* Instagram: [calz.dani](https://www.instagram.com/calz.dani)
-* Discord: [Il Branco](dsc.gg/mrjake)
-
 ## Mostra il tuo supporto
 
 Datemi una ⭐️ se copierete questo sito!
