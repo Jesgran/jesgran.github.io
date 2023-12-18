@@ -10,41 +10,71 @@ body {
   /* Rimuovi il testo predefinito dei link */
   a {
     text-decoration: none;
-  }
-  
-  /* Stilizza i pulsanti */
-  .button {
-    display: inline-block;
-    padding: 10px 40px; /* Allarga i pulsanti solo in lunghezza */
-    background-color: #1B2732;
     color: #11C63D;
-    border: none;
-    border-radius: 10px; /* Angoli arrotondati */
-    margin: 10px;
-    transition: background-color 0.3s; /* Transizione del colore al passaggio del mouse */
   }
   
-  .button:hover {
-    background-color: #193b51; /* Cambia colore al passaggio del mouse */
-  }
+/* Stilizza i pulsanti */
+.button {
+  display: inline-block;
+  width: 500px; /* Imposta una larghezza fissa per tutti i pulsanti */
+  padding: 70px; /* Imposta un padding uniforme per mantenere la dimensione del testo */
+  background-color: #1B2732;
+  color: #11C63D;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
   
-  /* Stilizza il testo principale nel pulsante */
-  .main-text {
-    font-size: 20px;
-    display: block;
-    margin-bottom: 10px; /* Aggiungi spazio tra il testo principale e quello aggiuntivo */
-  }
+.button:hover {
+  background-color: #193b51; /* Cambia colore al passaggio del mouse */
+}
   
-  /* Stilizza il testo aggiuntivo nel pulsante */
-  .additional-text {
-    font-size: 14px;
-  }
-  
-  /* Posiziona il contenuto al centro della pagina */
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
+/* Stilizza il testo principale nel pulsante */
+.main-text {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 5px; /* Riduci lo spazio tra il testo principale e quello aggiuntivo */
+  line-height: 1.5; /* Aggiungi spazio tra le righe per una migliore leggibilità */
+}
+/* Stilizza il testo aggiuntivo nel pulsante */
+/* Stilizza il testo aggiuntivo nel pulsante */
+.additional-text {
+  font-size: 21px;
+  line-height: 1.5; /* Aggiungi spazio tra le righe per una migliore leggibilità */
+}
+/* Aggiungi stile per i pulsanti superiori e inferiori */
+.upper-buttons,
+.lower-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* Stile per ciascun gruppo di pulsanti */
+.upper-buttons .button,
+.lower-buttons .button {
+  margin: 10px;
+}
+
+/* Posiziona il contenuto al centro della pagina */
+.center {
+  display: flex;
+  flex-direction: column; /* Modifica la direzione della colonna */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+u {
+  text-decoration: underline;
+}
+/* Stilizza l'informazione dello sviluppatore */
+.developer-info {
+  margin-bottom: 20px;
+  color: #ffffff; /* Colore del testo bianco */
+  font-size: 18px;
+}
+
+.developer-info p {
+  margin: 0;
+}
